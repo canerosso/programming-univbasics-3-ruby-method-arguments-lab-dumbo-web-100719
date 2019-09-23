@@ -15,11 +15,23 @@ def introduction_with_language_optional(name, language="Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end 
 
+def introduction_with_language_optional(name, language = "Ruby")
+puts "Hello #{name}, start using #{language}."
 
+end
 
+<<<<<<< HEAD
 def introduction_with_language_optional(name, language="Ruby")
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
+=======
+def introduction_with_language_optional()
+  puts 
+end 
+
+
+
+>>>>>>> 3d7cac77e1324c979f9562f053da78eeb7ce6aba
 
 
 
